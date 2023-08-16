@@ -22,7 +22,7 @@ double celsiusToFahrenheit(double celsius) {
 int main() {
     double celsius;
 
-    printf ( " temperature degree Celsius: " ) ;
+    printf ( " User input :\n " ) ;
     scanf( "%lf" , &celsius ) ;
 
     double fahrenheit = celsiusToFahrenheit (celsius) ;
