@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW04/hw04-7-Temperator-Convert.cpp",
+      "run": "./a.out",
+      "input": "22",
+      "output": "22 degree Celsius = 71.6 degree Fahrenheit",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Set 2",
+      "setup": "g++ -o a.out ./Homework/HW04/hw04-7-Temperator-Convert.cpp",
+      "run": "./a.out",
+      "input": "36",
+      "output": "36 degree Celsius = 96.8 degree Fahrenheit",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
